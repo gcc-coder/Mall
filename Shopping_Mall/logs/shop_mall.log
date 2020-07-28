@@ -1,0 +1,157 @@
+INFO 2020-07-27 10:57:24,290 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 10:58:26,114 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-27 10:58:26,159 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-07-27 10:58:26,257 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-27 10:58:26,258 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-27 10:58:26,259 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-27 11:14:50,516 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 11:14:51,237 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 11:31:54,932 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 11:31:55,754 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:19:02,728 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:19:03,437 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:19:10,261 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:19:34,532 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-27 12:19:44,917 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:19:45,668 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:19:56,898 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-27 12:20:54,671 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:20:55,416 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:21:04,856 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:21:05,610 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:24:43,950 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:26:53,872 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:27:23,144 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:28:38,587 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 12:28:58,320 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 12:28:59,176 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 15:33:31,820 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 15:34:30,532 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 15:35:37,075 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-27 15:35:37,926 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 15:39:32,882 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 15:40:23,538 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-07-27 15:40:27,935 basehttp 154 "GET / HTTP/1.1" 500 59
+INFO 2020-07-27 15:40:56,788 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-07-27 15:41:00,319 basehttp 154 "GET / HTTP/1.1" 500 59
+INFO 2020-07-27 15:41:10,188 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-07-27 15:41:12,508 basehttp 154 "GET / HTTP/1.1" 500 59
+INFO 2020-07-27 15:41:23,412 autoreload 203 E:\Envs\Project_Django_Mall-Q-B488lD\Lib\site-packages\django\views\debug.py changed, reloading.
+INFO 2020-07-27 15:41:24,191 autoreload 578 Watching for file changes with StatReloader
+ERROR 2020-07-27 15:41:26,836 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\urls.py", line 21, in index
+    return render(request, 'index.html')
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Envs\Project_Django_Mall-Q-B488lD\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-07-27 15:41:26,837 basehttp 154 "GET / HTTP/1.1" 500 81904
+INFO 2020-07-27 16:17:00,594 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 16:17:03,397 basehttp 154 "GET / HTTP/1.1" 200 38951
+INFO 2020-07-27 16:17:03,426 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2020-07-27 16:17:03,428 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2020-07-27 16:17:03,428 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-07-27 16:17:03,429 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-07-27 16:17:03,439 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-07-27 16:17:03,454 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-07-27 16:17:03,467 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2020-07-27 16:17:03,482 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2020-07-27 16:17:03,484 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2020-07-27 16:17:03,485 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2020-07-27 16:17:03,486 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2020-07-27 16:17:03,490 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2020-07-27 16:17:03,492 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2020-07-27 16:17:03,494 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2020-07-27 16:17:03,494 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2020-07-27 16:17:03,495 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2020-07-27 16:17:03,495 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2020-07-27 16:17:03,508 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2020-07-27 16:17:03,511 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2020-07-27 16:17:03,516 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2020-07-27 16:17:03,516 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2020-07-27 16:17:03,522 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2020-07-27 16:17:03,522 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2020-07-27 16:17:03,523 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2020-07-27 16:17:03,523 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2020-07-27 16:18:03,530 log 228 Not Found: /index.html
+WARNING 2020-07-27 16:18:03,531 basehttp 154 "GET /index.html HTTP/1.1" 404 2076
+INFO 2020-07-27 16:18:12,183 basehttp 154 "GET / HTTP/1.1" 200 38951
+INFO 2020-07-27 16:45:41,888 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\urls.py changed, reloading.
+INFO 2020-07-27 16:45:42,826 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 16:50:17,402 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 16:51:59,844 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-07-27 16:52:09,457 log 228 Not Found: /user
+WARNING 2020-07-27 16:52:09,458 basehttp 154 "GET /user HTTP/1.1" 404 2063
+WARNING 2020-07-27 16:52:16,150 log 228 Not Found: /user/register
+WARNING 2020-07-27 16:52:16,161 basehttp 154 "GET /user/register HTTP/1.1" 404 2142
+INFO 2020-07-27 16:55:17,583 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 16:55:18,880 basehttp 154 "GET /user/register HTTP/1.1" 301 0
+INFO 2020-07-27 16:55:18,909 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2969
+WARNING 2020-07-27 16:55:18,944 log 228 Not Found: /user/static/css/reset.css
+WARNING 2020-07-27 16:55:18,945 log 228 Not Found: /user/static/images/1.png
+WARNING 2020-07-27 16:55:18,946 log 228 Not Found: /user/static/css/main.css
+WARNING 2020-07-27 16:55:18,948 log 228 Not Found: /user/static/images/pic_code.jpg
+WARNING 2020-07-27 16:55:18,949 basehttp 154 "GET /user/static/css/reset.css HTTP/1.1" 404 2182
+WARNING 2020-07-27 16:55:18,949 basehttp 154 "GET /user/static/images/1.png HTTP/1.1" 404 2179
+WARNING 2020-07-27 16:55:18,950 basehttp 154 "GET /user/static/images/pic_code.jpg HTTP/1.1" 404 2200
+WARNING 2020-07-27 16:55:18,950 basehttp 154 "GET /user/static/css/main.css HTTP/1.1" 404 2179
+INFO 2020-07-27 17:01:36,325 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 17:01:40,180 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2962
+INFO 2020-07-27 17:01:40,210 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2020-07-27 17:01:40,218 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2020-07-27 17:01:40,219 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2020-07-27 17:01:40,219 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2020-07-27 17:01:41,522 log 228 Not Found: /user/register/login.html
+WARNING 2020-07-27 17:01:41,523 basehttp 154 "GET /user/register/login.html HTTP/1.1" 404 2179
+INFO 2020-07-27 17:06:13,278 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\views.py changed, reloading.
+INFO 2020-07-27 17:06:13,991 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 17:07:38,966 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 17:08:51,248 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 17:08:53,191 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2962
+INFO 2020-07-27 17:10:34,381 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\urls.py changed, reloading.
+INFO 2020-07-27 17:10:35,065 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 17:10:38,138 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2962
+WARNING 2020-07-27 17:10:43,989 log 228 Not Found: /user/re/
+WARNING 2020-07-27 17:10:43,989 basehttp 154 "GET /user/re/ HTTP/1.1" 404 2142
+INFO 2020-07-27 17:10:56,769 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-07-27 17:10:58,594 log 228 Not Found: /user/re/
+WARNING 2020-07-27 17:10:58,595 basehttp 154 "GET /user/re/ HTTP/1.1" 404 2142
+WARNING 2020-07-27 17:11:03,369 log 228 Not Found: /user/re/
+WARNING 2020-07-27 17:11:03,369 basehttp 154 "GET /user/re/ HTTP/1.1" 404 2142
+INFO 2020-07-27 17:11:05,414 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2962
+INFO 2020-07-27 17:53:17,703 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\models.py changed, reloading.
+INFO 2020-07-27 17:53:18,409 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 18:13:35,562 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-27 18:14:03,545 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\models.py changed, reloading.
+INFO 2020-07-27 18:14:04,219 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:15:45,764 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:22:43,490 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\models.py changed, reloading.
+INFO 2020-07-28 10:22:44,297 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:23:36,220 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\apps\users\models.py changed, reloading.
+INFO 2020-07-28 10:23:37,054 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:25:11,443 autoreload 203 E:\Project_Django_Mall\Shopping_Mall\Shopping_Mall\dev.py changed, reloading.
+INFO 2020-07-28 10:25:12,224 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:31:49,878 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:32:40,342 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 10:45:43,018 basehttp 154 "GET /static/images/1.png HTTP/1.1" 304 0
+WARNING 2020-07-28 10:45:43,150 log 228 Not Found: /favicon.ico
+WARNING 2020-07-28 10:45:43,151 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2084
+INFO 2020-07-28 18:57:24,069 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-07-28 18:57:58,731 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-07-28 18:58:00,301 log 228 Not Found: /
+WARNING 2020-07-28 18:58:00,301 basehttp 154 "GET / HTTP/1.1" 404 2033
+WARNING 2020-07-28 18:58:00,403 log 228 Not Found: /favicon.ico
+WARNING 2020-07-28 18:58:00,404 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2084
+WARNING 2020-07-28 18:58:06,107 log 228 Not Found: /user
+WARNING 2020-07-28 18:58:06,108 basehttp 154 "GET /user HTTP/1.1" 404 2063
+INFO 2020-07-28 18:58:14,050 basehttp 154 "GET /user/register/ HTTP/1.1" 200 2962
